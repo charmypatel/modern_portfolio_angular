@@ -1,0 +1,10 @@
+$primary-color: #444;
+$secondary-color: #eece1a;
+
+#main-footer {
+  text-align: center;
+  padding: 1rem;
+  background: darken($primary-color, 10);
+  color: white;
+  height: 60px;
+}

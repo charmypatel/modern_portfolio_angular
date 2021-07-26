@@ -1,0 +1,15 @@
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  margin-bottom: 0.3rem;
+}
+
+.btn-dark {
+  color: #fff;
+}
+
+.btn-light {
+  color: #333;
+}
+/*# sourceMappingURL=app.component.css.map */

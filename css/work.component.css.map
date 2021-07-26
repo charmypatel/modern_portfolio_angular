@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,MAAM;EAChB,qBAAqB,EAAE,cAAc;CAYtC;;AAfH,AAKI,SALK,CAKL,GAAG,CAAC;EACF,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,cAAc;CAOvB;;AAdL,AASM,SATG,CAKL,GAAG,AAIA,MAAM,CAAC;EACN,OAAO,EAAE,GAAG;CAGb",
+    "sources": [
+        "../src/app/work/work.component.scss"
+    ],
+    "names": [],
+    "file": "work.component.css"
+}

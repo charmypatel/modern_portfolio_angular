@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,eAAe,EAAE,YAAY;EAC7B,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,IAAI;CAkBjB;;AAvBD,AAOE,MAPI,CAOJ,GAAG,CAAC;EACF,SAAS,EAAE,IAAI;EACf,MAAM,EAAE,cAAc;EACtB,OAAO,EAAE,aAAa;EACtB,aAAa,EAAE,IAAI;CAWpB;;AAtBH,AAcI,MAdE,CAOJ,GAAG,AAOA,MAAM,CAAC;EACN,OAAO,EAAE,aAAa;CAMvB",
+    "sources": [
+        "../src/app/contact/contact.component.scss"
+    ],
+    "names": [],
+    "file": "contact.component.css"
+}

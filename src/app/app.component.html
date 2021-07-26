@@ -1,0 +1,37 @@
+<header>
+
+  <div class="menu-btn" [class.close]="check" (click)="myfunction()">
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+    <div class="btn-line"></div>
+  </div>
+  
+  <nav class="menu" [class.show]="check" (click)="myfunction()">
+    
+    <div class="menu-branding" [class.show]="check" (click)="myfunction()">
+      <div class="portrait"></div>
+    </div>
+  
+    <ul class="menu-nav"[class.show]="check" (click)="myfunction()">
+      <li class="nav-item current" [class.show]="check" (click)="myfunction()">
+        <a routerLink="/index"class="nav-link">Home</a>
+      </li>
+      
+      <li class="nav-item" [class.show]="check" (click)="myfunction()">
+        <a routerLink="/about" class="nav-link">About Me</a>
+      </li>
+      
+      <li class="nav-item" [class.show]="check" (click)="myfunction()">
+        <a routerLink="/work" class="nav-link">My Work</a>
+      </li>
+      
+      <li class="nav-item" [class.show]="check" (click)="myfunction()">
+        <a routerLink="/contact" class="nav-link">How To Reach Me</a>
+      </li>
+    </ul>
+  
+  </nav>
+  
+</header>
+
+<router-outlet></router-outlet>

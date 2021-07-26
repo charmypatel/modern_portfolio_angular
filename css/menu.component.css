@@ -1,0 +1,40 @@
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transform: rotate(180deg);
+  visibility: visible;
+}
+
+.menu-btn .btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+}
+
+.menu-btn .btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-btn .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-btn .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.empty .btn-line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.empty .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+.empty .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+/*# sourceMappingURL=menu.component.css.map */
